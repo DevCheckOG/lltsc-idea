@@ -17,6 +17,8 @@ Among these reasons, we have:
 
 First of all, we need to consider the language we're going to use to build the compiler. For that, we have two options: Rust or C#. However, C# would be preferable to avoid extreme complexity and verbosity when developing the compiler for Rust.
 
+C# was chosen because it is one of the few languages ​​with such a high level that it can be compiled to machine code, allowing for good overall performance in the compiler.
+
 We will use the LLVM-C API, to have a solid interoperability with ``C``.
 
 We can find bindigs for this at: https://github.com/dotnet/LLVMSharp
